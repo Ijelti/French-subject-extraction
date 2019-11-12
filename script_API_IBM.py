@@ -39,7 +39,7 @@ def topic_ibm(content):
     
 print(topic_ibm('''La discussion demande un effort de réflexion. Vous y montrez la pertinence de votre travail et son apport original dans le domaine scientifique concerné. Elle permet à la science d’avancer
  '''))
-"""
+
 ########################################### lecture et application du api sur notre data ############################################
 def open_csv(path):
     dic1={}
@@ -79,7 +79,6 @@ dic1=open_csv(path)
 print(dic1)
 writterCsv(dic1,"C:/Users/Dell 7470/Desktop/stage pfe/1 idee/donnee_multiclasse3.csv")
 
-"""
 
 
 
